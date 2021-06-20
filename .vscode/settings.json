@@ -1,0 +1,16 @@
+{
+
+  //"eslint.autoFixOnSave": true, // 保存时自动格式化
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "html", "autoFix": true },
+    { "language": "vue", "autoFix": true }
+  ],
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false, // 去掉分号
+      "singleQuote": true // 将双引号转换成单引号
+    }
+  }  
+}

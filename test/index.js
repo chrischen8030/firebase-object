@@ -8,10 +8,12 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-const docRef = db.collection('users').doc('alovelace');
 
-docRef.set({
-  first: 'Ada',
-  last: 'Lovelace',
-  born: 1815
-});
+const firebase = require('../src/model/firebase.model');
+const FirebaseModel = firebase.FirebaseModel;
+const model = new FirebaseModel(admin,`ylWajkg5vdF7fzFLX5Tv`);
+model.paths.push('test');
+model.data = {}
+model.get().then(()=>{
+  // console.log(model);
+})

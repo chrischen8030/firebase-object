@@ -1,8 +1,8 @@
 {
-  "name": "firebase-object",
+  "name": "@fb-model/firebase-object",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib",
@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/chrischen8030/firebase-object.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "chirschen8030",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chrischen8030/firebase-object/issues"
   },
